@@ -48,7 +48,7 @@ const AboutUs = () => {
   ];
 
   return (
-    <div className="bg-white py-24">
+    <div className="bg-white py-24" id='about'>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Mission Statement */}
         <div className="text-center mb-20">
@@ -83,7 +83,7 @@ const AboutUs = () => {
         </div>
 
         {/* Team Section */}
-        <div>
+        <div id='team'>
           <h3 className="text-3xl font-bold text-gray-900 text-center mb-12">
             Meet Our Team
           </h3>

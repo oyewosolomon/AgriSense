@@ -52,7 +52,7 @@ const ProductsSection = () => {
   ];
 
   return (
-    <div className="bg-gradient-to-b from-white to-green-50 py-24">
+    <div className="bg-gradient-to-b from-white to-green-50 py-24" id='resources'>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-6">
@@ -108,7 +108,7 @@ const ProductsSection = () => {
           {/* Feature Preview */}
           <div className="relative h-[600px] rounded-2xl overflow-hidden shadow-2xl">
             <img 
-              src="/api/placeholder/800/600" 
+              src="/images/benefit.jpg" 
               alt="Feature preview"
               className="absolute inset-0 w-full h-full object-cover"
             />
