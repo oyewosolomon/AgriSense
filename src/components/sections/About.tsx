@@ -95,7 +95,7 @@ const AboutUs = () => {
               >
                 <div className="aspect-w-3 aspect-h-4">
                   <img 
-                    src={`https://randomuser.me/api/portraits/men/${index}.jpg`}
+                    src={`https://randomuser.me/api/portraits/men/${index+1}.jpg`}
                     alt={member.name}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
