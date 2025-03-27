@@ -24,6 +24,7 @@
     --input: 214.3 31.8% 91.4%;
     --ring: 222 89% 51%;
     --radius: 0.75rem;
+    --font-rethink: 'Rethink Sans', sans-serif;
   }
 
   .dark {
@@ -46,15 +47,21 @@
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
     --ring: 224.3 76.3% 48%;
+    --font-rethink: 'Rethink Sans', sans-serif;
   }
 
   * {
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-normal;
+    font-family: var(--font-rethink);
   }
 
+  h1, h2, h3 {
+    @apply font-semibold; /* 600 weight */
+    letter-spacing: -0.015em;
+  }
   
 @layer components {
   .container {

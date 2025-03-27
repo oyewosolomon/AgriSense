@@ -32,24 +32,14 @@ const ContactSection = () => {
   };
 
   const contactInfo = [
-    {
-      icon: <Phone className="w-6 h-6" />,
-      title: "Phone",
-      value: "+1 (800) 123-4567",
-      link: "tel:+18001234567"
-    },
+
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
       value: "info@BuildSmartsolutions.com",
       link: "mailto:info@BuildSmartsolutions.com"
     },
-    {
-      icon: <MapPin className="w-6 h-6" />,
-      title: "Address",
-      value: "123 FarmTech Lane, AgriCity, USA",
-      link: "#"
-    }
+
   ];
 
   return (
@@ -215,7 +205,7 @@ const ContactSection = () => {
             </div>
 
             {/* Socia Media */}
-            <div className="bg-green-600 rounded-xl p-5 text-white">
+            <div className="bg-green-600 rounded-xl p-5 text-white mt-5">
               <div className="flex items-center justify-center space-x-4">
                 <div className="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center">
                   <Facebook className="w-6 h-6" />

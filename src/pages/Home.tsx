@@ -40,15 +40,7 @@ export default function Home() {
       <SuccessSection/>
       <ResourcesSection/>
       <Contact/> 
-      {/* <Features/>
-      <Testimonials/>
-      <CTA/>
-      <ServicesSection/>
-      <HowItWorks/>
-      <IndustriesSection/>
-      <SustainabilitySection/>
-      <PartnershipsSection/>
-      <Contact/> */}
+    
       <Footer/>
     </main>
   );

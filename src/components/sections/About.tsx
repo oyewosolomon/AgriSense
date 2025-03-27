@@ -5,6 +5,7 @@ interface TeamMember {
   name: string;
   role: string;
   bio: string;
+  image: string;
 }
 
 const AboutUs = () => {
@@ -12,17 +13,20 @@ const AboutUs = () => {
     {
       name: "Dr. Sarah Johnson",
       role: "Chief Agricultural Officer",
-      bio: "20+ years experience in agricultural science and precision farming technologies."
+      bio: "20+ years experience in agricultural science and precision farming technologies.",
+      image:"https://randomuser.me/api/portraits/women/50.jpg"
     },
     {
       name: "Mike Chen",
       role: "Head of Technology",
-      bio: "Former Google engineer specializing in AI and machine learning for agriculture."
+      bio: "Former Google engineer specializing in AI and machine learning for agriculture.",
+      image:"https://randomuser.me/api/portraits/men/50.jpg"
     },
     {
       name: "Emma Martinez",
       role: "Lead Agronomist",
-      bio: "Expert in sustainable farming practices and crop optimization."
+      bio: "Expert in sustainable farming practices and crop optimization.",
+      image:"https://randomuser.me/api/portraits/men/55.jpg"
     }
   ];
 
@@ -83,7 +87,7 @@ const AboutUs = () => {
         </div>
 
         {/* Team Section */}
-        <div id='team'>
+        {/* <div id='team'>
           <h3 className="text-3xl font-bold text-gray-900 text-center mb-12">
             Meet Our Team
           </h3>
@@ -95,7 +99,7 @@ const AboutUs = () => {
               >
                 <div className="aspect-w-3 aspect-h-4">
                   <img 
-                    src={`https://randomuser.me/api/portraits/men/${index+1}.jpg`}
+                    src={member.image}
                     alt={member.name}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
@@ -114,7 +118,7 @@ const AboutUs = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
