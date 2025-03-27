@@ -36,8 +36,8 @@ const ContactSection = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      value: "info@BuildSmartsolutions.com",
-      link: "mailto:info@BuildSmartsolutions.com"
+      value: "info@agri-solution.net",
+      link: "mailto:info@agri-solution.net"
     },
 
   ];
