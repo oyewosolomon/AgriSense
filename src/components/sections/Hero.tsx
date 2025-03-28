@@ -9,7 +9,7 @@ const HeroSection = () => {
   ];
 
   return (
-    <div className="relative bg-gradient-to-br from-green-50 to-blue-50 overflow-hidden">
+    <div className="relative h-screen bg-gradient-to-br from-green-50 to-blue-50 overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-[linear-gradient(30deg,#84cc1680_4%,#84cc1610_50%,#22c55e10_100%)]" />
